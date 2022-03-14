@@ -11,7 +11,9 @@ import SwiftUI
 struct BmPhotoEffectsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .preferredColorScheme(.dark)
+                .accentColor(.primary)
         }
     }
 }

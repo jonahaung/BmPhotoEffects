@@ -7,21 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4250C4C107BBBC576A21C5A0 /* Pods_BmPhotoEffects__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0F47B40E03F7BA30057BA9 /* Pods_BmPhotoEffects__macOS_.framework */; };
 		477DA67A27DF0EFA00C143C4 /* BmPhotoEffectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA66A27DF0EF900C143C4 /* BmPhotoEffectsApp.swift */; };
 		477DA67B27DF0EFA00C143C4 /* BmPhotoEffectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA66A27DF0EF900C143C4 /* BmPhotoEffectsApp.swift */; };
-		477DA67C27DF0EFA00C143C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA66B27DF0EF900C143C4 /* ContentView.swift */; };
-		477DA67D27DF0EFA00C143C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA66B27DF0EF900C143C4 /* ContentView.swift */; };
+		477DA67C27DF0EFA00C143C4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA66B27DF0EF900C143C4 /* MainView.swift */; };
+		477DA67D27DF0EFA00C143C4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA66B27DF0EF900C143C4 /* MainView.swift */; };
 		477DA67E27DF0EFA00C143C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477DA66C27DF0EFA00C143C4 /* Assets.xcassets */; };
 		477DA67F27DF0EFA00C143C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477DA66C27DF0EFA00C143C4 /* Assets.xcassets */; };
+		477DA68A27DF0FFE00C143C4 /* XFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA68927DF0FFE00C143C4 /* XFont.swift */; };
+		477DA68C27DF100500C143C4 /* UIImage+Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA68B27DF100500C143C4 /* UIImage+Symbols.swift */; };
+		477DA69227DF1A6000C143C4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA69127DF1A6000C143C4 /* ImagePicker.swift */; };
+		477DA69527DF1AAF00C143C4 /* TapToPresentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA69427DF1AAF00C143C4 /* TapToPresentStyle.swift */; };
+		477DA69727DF1ABC00C143C4 /* TapToPushStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA69627DF1ABC00C143C4 /* TapToPushStyle.swift */; };
+		477DA69927DF1B0100C143C4 /* TapToShowActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA69827DF1B0100C143C4 /* TapToShowActionSheetView.swift */; };
+		477DA69C27DF22CB00C143C4 /* MainViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA69B27DF22CB00C143C4 /* MainViewManager.swift */; };
+		477DA69E27DF233B00C143C4 /* +UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA69D27DF233B00C143C4 /* +UIImage.swift */; };
+		477DA6A027DF239D00C143C4 /* EffectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA69F27DF239D00C143C4 /* EffectImageView.swift */; };
+		477DA6A427DF292800C143C4 /* cartoongan_int8.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 477DA6A327DF292800C143C4 /* cartoongan_int8.tflite */; };
+		477DA6A527DF292800C143C4 /* cartoongan_int8.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 477DA6A327DF292800C143C4 /* cartoongan_int8.tflite */; };
+		477DA6A727DF295100C143C4 /* AIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6A627DF295100C143C4 /* AIModel.swift */; };
+		477DA6A827DF295100C143C4 /* AIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6A627DF295100C143C4 /* AIModel.swift */; };
+		477DA6AA27DF29AC00C143C4 /* Data+Array+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6A927DF29AC00C143C4 /* Data+Array+Convert.swift */; };
+		477DA6AB27DF29AC00C143C4 /* Data+Array+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6A927DF29AC00C143C4 /* Data+Array+Convert.swift */; };
+		477DA6AD27DF2DFD00C143C4 /* +String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6AC27DF2DFD00C143C4 /* +String.swift */; };
+		477DA6AE27DF2DFD00C143C4 /* +String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6AC27DF2DFD00C143C4 /* +String.swift */; };
+		477DA6B027DF2F2800C143C4 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6AF27DF2F2800C143C4 /* SpinnerView.swift */; };
+		477DA6B127DF2F2800C143C4 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6AF27DF2F2800C143C4 /* SpinnerView.swift */; };
+		477DA6B327DF34A700C143C4 /* FilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6B227DF34A700C143C4 /* FilterType.swift */; };
+		477DA6B427DF34A700C143C4 /* FilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6B227DF34A700C143C4 /* FilterType.swift */; };
+		477DA6B827DF397C00C143C4 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6B727DF397C00C143C4 /* ActivityView.swift */; };
+		477DA6B927DF397C00C143C4 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6B727DF397C00C143C4 /* ActivityView.swift */; };
+		477DA6BB27DF40A500C143C4 /* StarryNight.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6BA27DF40A500C143C4 /* StarryNight.mlmodel */; };
+		477DA6BC27DF40A500C143C4 /* StarryNight.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6BA27DF40A500C143C4 /* StarryNight.mlmodel */; };
+		477DA6BE27DF40AC00C143C4 /* Pointillism.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6BD27DF40AC00C143C4 /* Pointillism.mlmodel */; };
+		477DA6BF27DF40AC00C143C4 /* Pointillism.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6BD27DF40AC00C143C4 /* Pointillism.mlmodel */; };
+		477DA6C127DF424E00C143C4 /* CoreMLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6C027DF424E00C143C4 /* CoreMLModel.swift */; };
+		477DA6C227DF424E00C143C4 /* CoreMLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6C027DF424E00C143C4 /* CoreMLModel.swift */; };
+		477DA6C427DF428800C143C4 /* +CartoonGanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6C327DF428800C143C4 /* +CartoonGanModel.swift */; };
+		477DA6C527DF428800C143C4 /* +CartoonGanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6C327DF428800C143C4 /* +CartoonGanModel.swift */; };
+		477DA6C727DF42C700C143C4 /* MLModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6C627DF42C700C143C4 /* MLModelProvider.swift */; };
+		477DA6C827DF42C700C143C4 /* MLModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6C627DF42C700C143C4 /* MLModelProvider.swift */; };
+		477DA6CA27DF433500C143C4 /* NSTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6C927DF433500C143C4 /* NSTError.swift */; };
+		477DA6CB27DF433500C143C4 /* NSTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6C927DF433500C143C4 /* NSTError.swift */; };
+		477DA6CD27DF49BA00C143C4 /* gan.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6CC27DF49BA00C143C4 /* gan.mlmodel */; };
+		477DA6CE27DF49BA00C143C4 /* gan.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 477DA6CC27DF49BA00C143C4 /* gan.mlmodel */; };
+		BB13DC78645B6DBA3D0ADF22 /* Pods_BmPhotoEffects__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F989234470D214600B1C1AE /* Pods_BmPhotoEffects__iOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0F47B40E03F7BA30057BA9 /* Pods_BmPhotoEffects__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BmPhotoEffects__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32081139375535EA0F7BA48B /* Pods-BmPhotoEffects (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmPhotoEffects (iOS).release.xcconfig"; path = "Target Support Files/Pods-BmPhotoEffects (iOS)/Pods-BmPhotoEffects (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		477DA66A27DF0EF900C143C4 /* BmPhotoEffectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmPhotoEffectsApp.swift; sourceTree = "<group>"; };
-		477DA66B27DF0EF900C143C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		477DA66B27DF0EF900C143C4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		477DA66C27DF0EFA00C143C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		477DA67127DF0EFA00C143C4 /* BmPhotoEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BmPhotoEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		477DA67727DF0EFA00C143C4 /* BmPhotoEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BmPhotoEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		477DA67927DF0EFA00C143C4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		477DA68927DF0FFE00C143C4 /* XFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XFont.swift; sourceTree = "<group>"; };
+		477DA68B27DF100500C143C4 /* UIImage+Symbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Symbols.swift"; sourceTree = "<group>"; };
+		477DA69127DF1A6000C143C4 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		477DA69427DF1AAF00C143C4 /* TapToPresentStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapToPresentStyle.swift; sourceTree = "<group>"; };
+		477DA69627DF1ABC00C143C4 /* TapToPushStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapToPushStyle.swift; sourceTree = "<group>"; };
+		477DA69827DF1B0100C143C4 /* TapToShowActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapToShowActionSheetView.swift; sourceTree = "<group>"; };
+		477DA69A27DF1DE000C143C4 /* BmPhotoEffects--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BmPhotoEffects--iOS--Info.plist"; sourceTree = "<group>"; };
+		477DA69B27DF22CB00C143C4 /* MainViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewManager.swift; sourceTree = "<group>"; };
+		477DA69D27DF233B00C143C4 /* +UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+UIImage.swift"; sourceTree = "<group>"; };
+		477DA69F27DF239D00C143C4 /* EffectImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectImageView.swift; sourceTree = "<group>"; };
+		477DA6A327DF292800C143C4 /* cartoongan_int8.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartoongan_int8.tflite; sourceTree = "<group>"; };
+		477DA6A627DF295100C143C4 /* AIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIModel.swift; sourceTree = "<group>"; };
+		477DA6A927DF29AC00C143C4 /* Data+Array+Convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Array+Convert.swift"; sourceTree = "<group>"; };
+		477DA6AC27DF2DFD00C143C4 /* +String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+String.swift"; sourceTree = "<group>"; };
+		477DA6AF27DF2F2800C143C4 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		477DA6B227DF34A700C143C4 /* FilterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterType.swift; sourceTree = "<group>"; };
+		477DA6B727DF397C00C143C4 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		477DA6BA27DF40A500C143C4 /* StarryNight.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StarryNight.mlmodel; sourceTree = "<group>"; };
+		477DA6BD27DF40AC00C143C4 /* Pointillism.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Pointillism.mlmodel; sourceTree = "<group>"; };
+		477DA6C027DF424E00C143C4 /* CoreMLModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLModel.swift; sourceTree = "<group>"; };
+		477DA6C327DF428800C143C4 /* +CartoonGanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+CartoonGanModel.swift"; sourceTree = "<group>"; };
+		477DA6C627DF42C700C143C4 /* MLModelProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLModelProvider.swift; sourceTree = "<group>"; };
+		477DA6C927DF433500C143C4 /* NSTError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTError.swift; sourceTree = "<group>"; };
+		477DA6CC27DF49BA00C143C4 /* gan.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = gan.mlmodel; sourceTree = "<group>"; };
+		5F989234470D214600B1C1AE /* Pods_BmPhotoEffects__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BmPhotoEffects__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		899550CBA4FD74CD686268A1 /* Pods-BmPhotoEffects (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmPhotoEffects (macOS).debug.xcconfig"; path = "Target Support Files/Pods-BmPhotoEffects (macOS)/Pods-BmPhotoEffects (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		A0249DBACA58CF57BB664E25 /* Pods-BmPhotoEffects (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmPhotoEffects (iOS).debug.xcconfig"; path = "Target Support Files/Pods-BmPhotoEffects (iOS)/Pods-BmPhotoEffects (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		C5FD6DC4EE2243C63AFDEE60 /* Pods-BmPhotoEffects (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmPhotoEffects (macOS).release.xcconfig"; path = "Target Support Files/Pods-BmPhotoEffects (macOS)/Pods-BmPhotoEffects (macOS).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB13DC78645B6DBA3D0ADF22 /* Pods_BmPhotoEffects__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4250C4C107BBBC576A21C5A0 /* Pods_BmPhotoEffects__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,9 +116,12 @@
 		477DA66427DF0EF900C143C4 = {
 			isa = PBXGroup;
 			children = (
+				477DA69A27DF1DE000C143C4 /* BmPhotoEffects--iOS--Info.plist */,
 				477DA66927DF0EF900C143C4 /* Shared */,
 				477DA67827DF0EFA00C143C4 /* macOS */,
 				477DA67227DF0EFA00C143C4 /* Products */,
+				CFA92BCF8246C9D96E048EE5 /* Pods */,
+				AC8BA7B39AEC116983C67C25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +129,12 @@
 			isa = PBXGroup;
 			children = (
 				477DA66A27DF0EF900C143C4 /* BmPhotoEffectsApp.swift */,
-				477DA66B27DF0EF900C143C4 /* ContentView.swift */,
+				477DA66B27DF0EF900C143C4 /* MainView.swift */,
+				477DA69B27DF22CB00C143C4 /* MainViewManager.swift */,
+				477DA69F27DF239D00C143C4 /* EffectImageView.swift */,
+				477DA6A127DF28E700C143C4 /* MachineLearning */,
+				477DA68D27DF101300C143C4 /* Model */,
+				477DA68827DF0FA600C143C4 /* UI */,
 				477DA66C27DF0EFA00C143C4 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -78,6 +157,92 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		477DA68827DF0FA600C143C4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				477DA69127DF1A6000C143C4 /* ImagePicker.swift */,
+				477DA69327DF1AA000C143C4 /* ViewModifiers */,
+				477DA69027DF147D00C143C4 /* Extensions */,
+				477DA68B27DF100500C143C4 /* UIImage+Symbols.swift */,
+				477DA68927DF0FFE00C143C4 /* XFont.swift */,
+				477DA6AF27DF2F2800C143C4 /* SpinnerView.swift */,
+				477DA6B727DF397C00C143C4 /* ActivityView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		477DA68D27DF101300C143C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				477DA6B227DF34A700C143C4 /* FilterType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		477DA69027DF147D00C143C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				477DA69D27DF233B00C143C4 /* +UIImage.swift */,
+				477DA6AC27DF2DFD00C143C4 /* +String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		477DA69327DF1AA000C143C4 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				477DA69427DF1AAF00C143C4 /* TapToPresentStyle.swift */,
+				477DA69827DF1B0100C143C4 /* TapToShowActionSheetView.swift */,
+				477DA69627DF1ABC00C143C4 /* TapToPushStyle.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		477DA6A127DF28E700C143C4 /* MachineLearning */ = {
+			isa = PBXGroup;
+			children = (
+				477DA6C627DF42C700C143C4 /* MLModelProvider.swift */,
+				477DA6C927DF433500C143C4 /* NSTError.swift */,
+				477DA6A927DF29AC00C143C4 /* Data+Array+Convert.swift */,
+				477DA6A627DF295100C143C4 /* AIModel.swift */,
+				477DA6C327DF428800C143C4 /* +CartoonGanModel.swift */,
+				477DA6C027DF424E00C143C4 /* CoreMLModel.swift */,
+				477DA6A227DF290000C143C4 /* Models */,
+			);
+			path = MachineLearning;
+			sourceTree = "<group>";
+		};
+		477DA6A227DF290000C143C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				477DA6CC27DF49BA00C143C4 /* gan.mlmodel */,
+				477DA6BD27DF40AC00C143C4 /* Pointillism.mlmodel */,
+				477DA6BA27DF40A500C143C4 /* StarryNight.mlmodel */,
+				477DA6A327DF292800C143C4 /* cartoongan_int8.tflite */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC8BA7B39AEC116983C67C25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F989234470D214600B1C1AE /* Pods_BmPhotoEffects__iOS_.framework */,
+				2D0F47B40E03F7BA30057BA9 /* Pods_BmPhotoEffects__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFA92BCF8246C9D96E048EE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0249DBACA58CF57BB664E25 /* Pods-BmPhotoEffects (iOS).debug.xcconfig */,
+				32081139375535EA0F7BA48B /* Pods-BmPhotoEffects (iOS).release.xcconfig */,
+				899550CBA4FD74CD686268A1 /* Pods-BmPhotoEffects (macOS).debug.xcconfig */,
+				C5FD6DC4EE2243C63AFDEE60 /* Pods-BmPhotoEffects (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 477DA68227DF0EFA00C143C4 /* Build configuration list for PBXNativeTarget "BmPhotoEffects (iOS)" */;
 			buildPhases = (
+				81C2D044E1C9330B1C305D6E /* [CP] Check Pods Manifest.lock */,
 				477DA66D27DF0EFA00C143C4 /* Sources */,
 				477DA66E27DF0EFA00C143C4 /* Frameworks */,
 				477DA66F27DF0EFA00C143C4 /* Resources */,
@@ -102,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 477DA68527DF0EFA00C143C4 /* Build configuration list for PBXNativeTarget "BmPhotoEffects (macOS)" */;
 			buildPhases = (
+				FC97815F19AD5C95C7B598CF /* [CP] Check Pods Manifest.lock */,
 				477DA67327DF0EFA00C143C4 /* Sources */,
 				477DA67427DF0EFA00C143C4 /* Frameworks */,
 				477DA67527DF0EFA00C143C4 /* Resources */,
@@ -157,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477DA6A427DF292800C143C4 /* cartoongan_int8.tflite in Resources */,
 				477DA67E27DF0EFA00C143C4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,19 +333,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477DA6A527DF292800C143C4 /* cartoongan_int8.tflite in Resources */,
 				477DA67F27DF0EFA00C143C4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81C2D044E1C9330B1C305D6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BmPhotoEffects (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC97815F19AD5C95C7B598CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BmPhotoEffects (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		477DA66D27DF0EFA00C143C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				477DA67C27DF0EFA00C143C4 /* ContentView.swift in Sources */,
+				477DA69227DF1A6000C143C4 /* ImagePicker.swift in Sources */,
+				477DA6B027DF2F2800C143C4 /* SpinnerView.swift in Sources */,
+				477DA6BE27DF40AC00C143C4 /* Pointillism.mlmodel in Sources */,
+				477DA67C27DF0EFA00C143C4 /* MainView.swift in Sources */,
+				477DA6B327DF34A700C143C4 /* FilterType.swift in Sources */,
+				477DA69527DF1AAF00C143C4 /* TapToPresentStyle.swift in Sources */,
+				477DA6C427DF428800C143C4 /* +CartoonGanModel.swift in Sources */,
+				477DA6A027DF239D00C143C4 /* EffectImageView.swift in Sources */,
+				477DA69727DF1ABC00C143C4 /* TapToPushStyle.swift in Sources */,
+				477DA6A727DF295100C143C4 /* AIModel.swift in Sources */,
+				477DA6BB27DF40A500C143C4 /* StarryNight.mlmodel in Sources */,
+				477DA6C727DF42C700C143C4 /* MLModelProvider.swift in Sources */,
+				477DA69927DF1B0100C143C4 /* TapToShowActionSheetView.swift in Sources */,
+				477DA6C127DF424E00C143C4 /* CoreMLModel.swift in Sources */,
+				477DA6B827DF397C00C143C4 /* ActivityView.swift in Sources */,
+				477DA69C27DF22CB00C143C4 /* MainViewManager.swift in Sources */,
+				477DA6CA27DF433500C143C4 /* NSTError.swift in Sources */,
+				477DA6CD27DF49BA00C143C4 /* gan.mlmodel in Sources */,
+				477DA6AD27DF2DFD00C143C4 /* +String.swift in Sources */,
+				477DA6AA27DF29AC00C143C4 /* Data+Array+Convert.swift in Sources */,
+				477DA68C27DF100500C143C4 /* UIImage+Symbols.swift in Sources */,
+				477DA68A27DF0FFE00C143C4 /* XFont.swift in Sources */,
 				477DA67A27DF0EFA00C143C4 /* BmPhotoEffectsApp.swift in Sources */,
+				477DA69E27DF233B00C143C4 /* +UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +423,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				477DA67D27DF0EFA00C143C4 /* ContentView.swift in Sources */,
+				477DA6B427DF34A700C143C4 /* FilterType.swift in Sources */,
+				477DA67D27DF0EFA00C143C4 /* MainView.swift in Sources */,
+				477DA6CE27DF49BA00C143C4 /* gan.mlmodel in Sources */,
 				477DA67B27DF0EFA00C143C4 /* BmPhotoEffectsApp.swift in Sources */,
+				477DA6BF27DF40AC00C143C4 /* Pointillism.mlmodel in Sources */,
+				477DA6AE27DF2DFD00C143C4 /* +String.swift in Sources */,
+				477DA6A827DF295100C143C4 /* AIModel.swift in Sources */,
+				477DA6CB27DF433500C143C4 /* NSTError.swift in Sources */,
+				477DA6B927DF397C00C143C4 /* ActivityView.swift in Sources */,
+				477DA6C827DF42C700C143C4 /* MLModelProvider.swift in Sources */,
+				477DA6B127DF2F2800C143C4 /* SpinnerView.swift in Sources */,
+				477DA6AB27DF29AC00C143C4 /* Data+Array+Convert.swift in Sources */,
+				477DA6C527DF428800C143C4 /* +CartoonGanModel.swift in Sources */,
+				477DA6C227DF424E00C143C4 /* CoreMLModel.swift in Sources */,
+				477DA6BC27DF40A500C143C4 /* StarryNight.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +557,7 @@
 		};
 		477DA68327DF0EFA00C143C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0249DBACA58CF57BB664E25 /* Pods-BmPhotoEffects (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +566,9 @@
 				DEVELOPMENT_TEAM = YYK4329T78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BmPhotoEffects--iOS--Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To Do";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To Do";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -336,6 +591,7 @@
 		};
 		477DA68427DF0EFA00C143C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32081139375535EA0F7BA48B /* Pods-BmPhotoEffects (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -344,6 +600,9 @@
 				DEVELOPMENT_TEAM = YYK4329T78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BmPhotoEffects--iOS--Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To Do";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To Do";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -367,6 +626,7 @@
 		};
 		477DA68627DF0EFA00C143C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899550CBA4FD74CD686268A1 /* Pods-BmPhotoEffects (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,6 +655,7 @@
 		};
 		477DA68727DF0EFA00C143C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FD6DC4EE2243C63AFDEE60 /* Pods-BmPhotoEffects (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
