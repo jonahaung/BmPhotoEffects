@@ -7,4 +7,14 @@ Type of effect
 2. VanGogh's Starry Night Effect
 3. Pointillism Effect 
 
-I used SwiftUI, Tensorflow, CoreML, CreateML
+SwiftUI, Tensorflow, CoreML, CreateML
+
+<p align="center">
+  <img src="https://github.com/jonahaung/BmPhotoEffects/blob/main/Expensive%202.JPG?raw=true" width="350" title="hover text">
+</p>
+<p align="center">
+  <img src="https://github.com/jonahaung/BmPhotoEffects/blob/main/Expensive%203.JPG?raw=true" width="350" title="hover text">
+</p>
+<p align="center">
+  <img src="https://github.com/jonahaung/BmPhotoEffects/blob/main/Expensive.JPG?raw=true" width="350" title="hover text">
+</p>
